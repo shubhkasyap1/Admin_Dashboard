@@ -25,8 +25,8 @@
 
     --card-padding: 1.8rem;
 
-    --padding-1: 1.2rem: --box-shadow: o 2rem 3rem var(-color-light);
-    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --padding-1: 1.2rem:
+    --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
 .dark-theme-variables {
@@ -61,6 +61,7 @@ body {
     background: var(--color-background);
     user-select: none;
     overflow-x: hidden;
+    color: var(--color-dark);
 }
 
 .container {
@@ -145,7 +146,6 @@ aside {
 }
 
 aside .top {
-    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -169,7 +169,6 @@ aside .close {
 /* =========Side-Bar================ */
 
 aside .sidebar {
-    background: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
@@ -210,7 +209,7 @@ aside .sidebar a.active {
 }
 
 aside .sidebar a.active::before {
-    content: "";
+    content: '';
     width: 6px;
     height: 100%;
     background: var(--color-primary);
@@ -256,7 +255,7 @@ main .date {
 }
 
 main .date input[type='date'] {
-    background: transparent;
+    background:transparent;
     color: var(--color-dark);
 }
 
